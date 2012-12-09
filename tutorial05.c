@@ -3,11 +3,12 @@
 //
 // Code based on FFplay, Copyright (c) 2003 Fabrice Bellard, 
 // and a tutorial by Martin Bohme (boehme@inb.uni-luebeckREMOVETHIS.de)
+// and another tutorial by Stephen Dranger (dranger at gmail dot com)
 // Tested on Gentoo, CVS version 5/01/07 compiled with GCC 4.1.1
 // Use
 //
-// gcc -o tutorial05 tutorial05.c -lavformat -lavcodec -lz -lm `sdl-config --cflags --libs`
-// to build (assuming libavformat and libavcodec are correctly installed, 
+// gcc -o tutorial05 tutorial05.c -lavformat -lavcodec -lswscale -lz -lm `sdl-config --cflags --libs`
+// to build (assuming libavformat and libavcodec and libswscale are correctly installed,
 // and assuming you have sdl-config. Please refer to SDL docs for your installation.)
 //
 // Run using
@@ -189,7 +190,7 @@ double get_audio_clock(VideoState *is) {
 
 int audio_decode_frame(VideoState *is, double *pts_ptr) {
 
-	int len1, data_size, n;
+	int len1, data_size = 0, n;
 	AVPacket *pkt = &is->audio_pkt;
 	double pts;
 

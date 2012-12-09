@@ -1,5 +1,6 @@
 // tutorial01.c
 // Code based on a tutorial by Martin Bohme (boehme@inb.uni-luebeckREMOVETHIS.de)
+// and another tutorial by Stephen Dranger (dranger at gmail dot com)
 // Tested on Gentoo, CVS version 5/01/07 compiled with GCC 4.1.1
 
 // A small sample program that shows how to use libavformat and libavcodec to
@@ -7,9 +8,9 @@
 //
 // Use
 //
-// gcc -o tutorial01 tutorial01.c -lavformat -lavcodec -lz
+// gcc -o tutorial01 tutorial01.c -lavformat -lavcodec -lswscale -lz
 //
-// to build (assuming libavformat and libavcodec are correctly installed
+// to build (assuming libavformat and libavcodec and libswscale are correctly installed
 // your system).
 //
 // Run using

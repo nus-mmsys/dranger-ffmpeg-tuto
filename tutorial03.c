@@ -4,11 +4,12 @@
 //
 // Code based on FFplay, Copyright (c) 2003 Fabrice Bellard, 
 // and a tutorial by Martin Bohme (boehme@inb.uni-luebeckREMOVETHIS.de)
+// and another tutorial by Stephen Dranger (dranger at gmail dot com)
 // Tested on Gentoo, CVS version 5/01/07 compiled with GCC 4.1.1
 // Use
 //
-// gcc -o tutorial03 tutorial03.c -lavformat -lavcodec -lz -lm `sdl-config --cflags --libs`
-// to build (assuming libavformat and libavcodec are correctly installed, 
+// gcc -o tutorial03 tutorial03.c -lavformat -lavcodec -lswscale -lz -lm `sdl-config --cflags --libs`
+// to build (assuming libavformat and libavcodec and libswscale are correctly installed,
 // and assuming you have sdl-config. Please refer to SDL docs for your installation.)
 //
 // Run using
