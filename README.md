@@ -1,6 +1,4 @@
-FFmpeg and SDL tutorial
-or
-How to Write a Video Player in Less Than 1000 Lines
+FFmpeg and SDL tutorial or "How to Write a Video Player in Less Than 1000 Lines"
 by Stephen Dranger
 ===================
 
