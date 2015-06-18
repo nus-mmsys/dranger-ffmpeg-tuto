@@ -5,3 +5,5 @@ This is an updated version of Stephen Dranger tutorial on ffmpeg and SDL.
 http://dranger.com/ffmpeg/
 
 On 14 June 2015 the project is ported to ffmpeg-2.7
+
+The tutorial is found [here] (https://github.com/arashafiei/tutorials/blob/master/ffmpeg/ffmpeg-tutorial.md)
