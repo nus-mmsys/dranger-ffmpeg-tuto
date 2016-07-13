@@ -11,7 +11,7 @@ SDL_LIBS =
 
 CFLAGS += -Wall -g
 CFLAGS := $(shell pkg-config --cflags $(FFMPEG_LIBS)) $(CFLAGS) `sdl-config --cflags --libs`
-LDLIBS := $(shell pkg-config --libs $(FFMPEG_LIBS)) $(LDLIBS) -lSDLmain -lSDL
+LDLIBS := $(shell pkg-config --libs $(FFMPEG_LIBS)) $(LDLIBS) -lSDLmain -lSDL -lm
 
 EXAMPLES=       tutorial01                      \
                 tutorial02                       \
