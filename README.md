@@ -4,6 +4,6 @@ An FFmpeg and SDL tutorial or "How to Write a Video Player in Less Than 1000 Lin
 This is an updated version of Stephen Dranger tutorial on ffmpeg and SDL.
 http://dranger.com/ffmpeg/
 
-On 14 June 2015 the project is ported to ffmpeg-2.7
+Last update: 14 July 2016
 
 The tutorial is found [here] (https://github.com/arashafiei/tutorials/blob/master/ffmpeg/ffmpeg-tutorial.md)
