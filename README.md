@@ -5,5 +5,3 @@ This is an updated version of Stephen Dranger tutorial on ffmpeg and SDL.
 http://dranger.com/ffmpeg/
 
 Last update: 14 July 2016
-
-The tutorial is found [here] (http://dranger.com)
