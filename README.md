@@ -6,4 +6,4 @@ http://dranger.com/ffmpeg/
 
 Last update: 14 July 2016
 
-The tutorial is found [here] (https://github.com/arashafiei/tutorials/blob/master/ffmpeg/ffmpeg-tutorial.md)
+The tutorial is found [here] (http://dranger.com)
